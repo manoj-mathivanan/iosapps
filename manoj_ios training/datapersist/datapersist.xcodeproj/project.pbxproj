@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFEC21F217213F1400F09E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEC21F117213F1400F09E50 /* UIKit.framework */; };
+		AFEC21F417213F1400F09E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEC21F317213F1400F09E50 /* Foundation.framework */; };
+		AFEC21F617213F1400F09E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEC21F517213F1400F09E50 /* CoreGraphics.framework */; };
+		AFEC21FC17213F1400F09E50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFEC21FA17213F1400F09E50 /* InfoPlist.strings */; };
+		AFEC21FE17213F1400F09E50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEC21FD17213F1400F09E50 /* main.m */; };
+		AFEC220217213F1400F09E50 /* persistAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEC220117213F1400F09E50 /* persistAppDelegate.m */; };
+		AFEC220417213F1400F09E50 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEC220317213F1400F09E50 /* Default.png */; };
+		AFEC220617213F1400F09E50 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEC220517213F1400F09E50 /* Default@2x.png */; };
+		AFEC220817213F1400F09E50 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEC220717213F1400F09E50 /* Default-568h@2x.png */; };
+		AFEC220B17213F1400F09E50 /* persistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEC220A17213F1400F09E50 /* persistViewController.m */; };
+		AFEC220E17213F1400F09E50 /* persistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFEC220C17213F1400F09E50 /* persistViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFEC21EE17213F1400F09E50 /* datapersist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datapersist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEC21F117213F1400F09E50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFEC21F317213F1400F09E50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFEC21F517213F1400F09E50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFEC21F917213F1400F09E50 /* datapersist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "datapersist-Info.plist"; sourceTree = "<group>"; };
+		AFEC21FB17213F1400F09E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFEC21FD17213F1400F09E50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFEC21FF17213F1400F09E50 /* datapersist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "datapersist-Prefix.pch"; sourceTree = "<group>"; };
+		AFEC220017213F1400F09E50 /* persistAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = persistAppDelegate.h; sourceTree = "<group>"; };
+		AFEC220117213F1400F09E50 /* persistAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = persistAppDelegate.m; sourceTree = "<group>"; };
+		AFEC220317213F1400F09E50 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AFEC220517213F1400F09E50 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AFEC220717213F1400F09E50 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AFEC220917213F1400F09E50 /* persistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = persistViewController.h; sourceTree = "<group>"; };
+		AFEC220A17213F1400F09E50 /* persistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = persistViewController.m; sourceTree = "<group>"; };
+		AFEC220D17213F1400F09E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/persistViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFEC21EB17213F1400F09E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEC21F217213F1400F09E50 /* UIKit.framework in Frameworks */,
+				AFEC21F417213F1400F09E50 /* Foundation.framework in Frameworks */,
+				AFEC21F617213F1400F09E50 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFEC21E517213F1400F09E50 = {
+			isa = PBXGroup;
+			children = (
+				AFEC21F717213F1400F09E50 /* datapersist */,
+				AFEC21F017213F1400F09E50 /* Frameworks */,
+				AFEC21EF17213F1400F09E50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFEC21EF17213F1400F09E50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFEC21EE17213F1400F09E50 /* datapersist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFEC21F017213F1400F09E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFEC21F117213F1400F09E50 /* UIKit.framework */,
+				AFEC21F317213F1400F09E50 /* Foundation.framework */,
+				AFEC21F517213F1400F09E50 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFEC21F717213F1400F09E50 /* datapersist */ = {
+			isa = PBXGroup;
+			children = (
+				AFEC220017213F1400F09E50 /* persistAppDelegate.h */,
+				AFEC220117213F1400F09E50 /* persistAppDelegate.m */,
+				AFEC220917213F1400F09E50 /* persistViewController.h */,
+				AFEC220A17213F1400F09E50 /* persistViewController.m */,
+				AFEC220C17213F1400F09E50 /* persistViewController.xib */,
+				AFEC21F817213F1400F09E50 /* Supporting Files */,
+			);
+			path = datapersist;
+			sourceTree = "<group>";
+		};
+		AFEC21F817213F1400F09E50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFEC21F917213F1400F09E50 /* datapersist-Info.plist */,
+				AFEC21FA17213F1400F09E50 /* InfoPlist.strings */,
+				AFEC21FD17213F1400F09E50 /* main.m */,
+				AFEC21FF17213F1400F09E50 /* datapersist-Prefix.pch */,
+				AFEC220317213F1400F09E50 /* Default.png */,
+				AFEC220517213F1400F09E50 /* Default@2x.png */,
+				AFEC220717213F1400F09E50 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFEC21ED17213F1400F09E50 /* datapersist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEC221117213F1400F09E50 /* Build configuration list for PBXNativeTarget "datapersist" */;
+			buildPhases = (
+				AFEC21EA17213F1400F09E50 /* Sources */,
+				AFEC21EB17213F1400F09E50 /* Frameworks */,
+				AFEC21EC17213F1400F09E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = datapersist;
+			productName = datapersist;
+			productReference = AFEC21EE17213F1400F09E50 /* datapersist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFEC21E617213F1400F09E50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = persist;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SAP;
+			};
+			buildConfigurationList = AFEC21E917213F1400F09E50 /* Build configuration list for PBXProject "datapersist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFEC21E517213F1400F09E50;
+			productRefGroup = AFEC21EF17213F1400F09E50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFEC21ED17213F1400F09E50 /* datapersist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFEC21EC17213F1400F09E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEC21FC17213F1400F09E50 /* InfoPlist.strings in Resources */,
+				AFEC220417213F1400F09E50 /* Default.png in Resources */,
+				AFEC220617213F1400F09E50 /* Default@2x.png in Resources */,
+				AFEC220817213F1400F09E50 /* Default-568h@2x.png in Resources */,
+				AFEC220E17213F1400F09E50 /* persistViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFEC21EA17213F1400F09E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEC21FE17213F1400F09E50 /* main.m in Sources */,
+				AFEC220217213F1400F09E50 /* persistAppDelegate.m in Sources */,
+				AFEC220B17213F1400F09E50 /* persistViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFEC21FA17213F1400F09E50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEC21FB17213F1400F09E50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFEC220C17213F1400F09E50 /* persistViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEC220D17213F1400F09E50 /* en */,
+			);
+			name = persistViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFEC220F17213F1400F09E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFEC221017213F1400F09E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFEC221217213F1400F09E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "datapersist/datapersist-Prefix.pch";
+				INFOPLIST_FILE = "datapersist/datapersist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFEC221317213F1400F09E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "datapersist/datapersist-Prefix.pch";
+				INFOPLIST_FILE = "datapersist/datapersist-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFEC21E917213F1400F09E50 /* Build configuration list for PBXProject "datapersist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEC220F17213F1400F09E50 /* Debug */,
+				AFEC221017213F1400F09E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEC221117213F1400F09E50 /* Build configuration list for PBXNativeTarget "datapersist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEC221217213F1400F09E50 /* Debug */,
+				AFEC221317213F1400F09E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFEC21E617213F1400F09E50 /* Project object */;
+}

@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44234CF915D0F8AC004BA53E /* Button-Add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44234CF815D0F8AC004BA53E /* Button-Add-icon.png */; };
+		44234CFC15D0F915004BA53E /* Button-Delete-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44234CFB15D0F915004BA53E /* Button-Delete-icon.png */; };
+		44234D0215D0FE6E004BA53E /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 44234CFD15D0FE6E004BA53E /* Add.png */; };
+		44234D0315D0FE6E004BA53E /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 44234CFE15D0FE6E004BA53E /* Delete.png */; };
+		44234D0415D0FE6E004BA53E /* Download.png in Resources */ = {isa = PBXBuildFile; fileRef = 44234CFF15D0FE6E004BA53E /* Download.png */; };
+		44234D0515D0FE6E004BA53E /* Update.png in Resources */ = {isa = PBXBuildFile; fileRef = 44234D0015D0FE6E004BA53E /* Update.png */; };
+		44234D0615D0FE6E004BA53E /* Upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 44234D0115D0FE6E004BA53E /* Upload.png */; };
+		44244AAB15BE9D7400A6A311 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44244AAA15BE9D7400A6A311 /* UIKit.framework */; };
+		44244AAD15BE9D7400A6A311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44244AAC15BE9D7400A6A311 /* Foundation.framework */; };
+		44244AAF15BE9D7400A6A311 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44244AAE15BE9D7400A6A311 /* CoreGraphics.framework */; };
+		44244AB515BE9D7400A6A311 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44244AB315BE9D7400A6A311 /* InfoPlist.strings */; };
+		44244AB715BE9D7400A6A311 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44244AB615BE9D7400A6A311 /* main.m */; };
+		44244ABB15BE9D7400A6A311 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44244ABA15BE9D7400A6A311 /* AppDelegate.m */; };
+		44244ABE15BE9D7400A6A311 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44244ABD15BE9D7400A6A311 /* ViewController.m */; };
+		44244AC115BE9D7400A6A311 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44244ABF15BE9D7400A6A311 /* ViewController_iPhone.xib */; };
+		44244AC415BE9D7400A6A311 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44244AC215BE9D7400A6A311 /* ViewController_iPad.xib */; };
+		44244AD415BEE71500A6A311 /* DetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44244AD215BEE71500A6A311 /* DetailsView.m */; };
+		44244AD515BEE71500A6A311 /* DetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44244AD315BEE71500A6A311 /* DetailsView.xib */; };
+		44278A2915BFC4F30097A94A /* PostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44278A2715BFC4F30097A94A /* PostView.m */; };
+		44278A2A15BFC4F30097A94A /* PostView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44278A2815BFC4F30097A94A /* PostView.xib */; };
+		44278A6D15BFEE900097A94A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44278A6415BFEE900097A94A /* CFNetwork.framework */; };
+		44278A6E15BFEE900097A94A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44278A6515BFEE900097A94A /* CoreFoundation.framework */; };
+		44278A6F15BFEE900097A94A /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44278A6615BFEE900097A94A /* libstdc++.dylib */; };
+		44278A7015BFEE900097A94A /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44278A6715BFEE900097A94A /* libz.1.2.5.dylib */; };
+		44278A7115BFEE900097A94A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44278A6815BFEE900097A94A /* MessageUI.framework */; };
+		44278A7215BFEE900097A94A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44278A6915BFEE900097A94A /* MobileCoreServices.framework */; };
+		44278A7315BFEE900097A94A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44278A6A15BFEE900097A94A /* QuartzCore.framework */; };
+		44278A7415BFEE900097A94A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44278A6B15BFEE900097A94A /* Security.framework */; };
+		44278A7515BFEE900097A94A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44278A6C15BFEE900097A94A /* SystemConfiguration.framework */; };
+		4435363215C68653005D7999 /* ImageScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4435363015C68653005D7999 /* ImageScreen.m */; };
+		4435363315C68653005D7999 /* ImageScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4435363115C68653005D7999 /* ImageScreen.xib */; };
+		4435363D15C69E68005D7999 /* Assassins3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4435363A15C69E68005D7999 /* Assassins3.jpg */; };
+		4435363E15C69E68005D7999 /* clichemag_tv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4435363B15C69E68005D7999 /* clichemag_tv.jpg */; };
+		4435363F15C69E68005D7999 /* witcher2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4435363C15C69E68005D7999 /* witcher2.png */; };
+		4444F82B15DD3CB2000D9D7C /* The-Dark-Knight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4444F82A15DD3CB2000D9D7C /* The-Dark-Knight.jpg */; };
+		B450ED2517F555A000A6633F /* SDMConnectivity-API-Docs.zip in Resources */ = {isa = PBXBuildFile; fileRef = B450ECB517F555A000A6633F /* SDMConnectivity-API-Docs.zip */; };
+		B450ED2617F555A000A6633F /* SDMParser-API-Docs.zip in Resources */ = {isa = PBXBuildFile; fileRef = B450ECB617F555A000A6633F /* SDMParser-API-Docs.zip */; };
+		B450ED2717F555A000A6633F /* SDMSupportability-API-Docs.zip in Resources */ = {isa = PBXBuildFile; fileRef = B450ECB717F555A000A6633F /* SDMSupportability-API-Docs.zip */; };
+		B450ED2817F555A000A6633F /* SMPRestClient-API-Docs.zip in Resources */ = {isa = PBXBuildFile; fileRef = B450ECB817F555A000A6633F /* SMPRestClient-API-Docs.zip */; };
+		B450ED2917F555A000A6633F /* SUPProxyClient-API-Docs.zip in Resources */ = {isa = PBXBuildFile; fileRef = B450ECB917F555A000A6633F /* SUPProxyClient-API-Docs.zip */; };
+		B450ED2A17F555A000A6633F /* SDMSupportability-Bundle.zip in Resources */ = {isa = PBXBuildFile; fileRef = B450ECBC17F555A000A6633F /* SDMSupportability-Bundle.zip */; };
+		B450ED2B17F555A000A6633F /* libDatavault.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED0E17F555A000A6633F /* libDatavault.a */; };
+		B450ED2C17F555A000A6633F /* libMo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED0F17F555A000A6633F /* libMo.a */; };
+		B450ED2D17F555A000A6633F /* libPerformanceLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1017F555A000A6633F /* libPerformanceLib.a */; };
+		B450ED2E17F555A000A6633F /* libSDMConnectivity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1117F555A000A6633F /* libSDMConnectivity.a */; };
+		B450ED2F17F555A000A6633F /* libSDMParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1217F555A000A6633F /* libSDMParser.a */; };
+		B450ED3017F555A000A6633F /* libSDMSupportability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1317F555A000A6633F /* libSDMSupportability.a */; };
+		B450ED3117F555A000A6633F /* libSMPRestClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1417F555A000A6633F /* libSMPRestClient.a */; };
+		B450ED3217F555A000A6633F /* libsupClientUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1517F555A000A6633F /* libsupClientUtil.a */; };
+		B450ED3317F555A000A6633F /* libSUPProxyClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1617F555A000A6633F /* libSUPProxyClient.a */; };
+		B450ED3417F555A000A6633F /* libSUPSupportability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1717F555A000A6633F /* libSUPSupportability.a */; };
+		B450ED3517F555A000A6633F /* libDatavault.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1917F555A000A6633F /* libDatavault.a */; };
+		B450ED3617F555A000A6633F /* libMo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1A17F555A000A6633F /* libMo.a */; };
+		B450ED3717F555A000A6633F /* libPerformanceLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1B17F555A000A6633F /* libPerformanceLib.a */; };
+		B450ED3817F555A000A6633F /* libSDMConnectivity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1C17F555A000A6633F /* libSDMConnectivity.a */; };
+		B450ED3917F555A000A6633F /* libSDMParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1D17F555A000A6633F /* libSDMParser.a */; };
+		B450ED3A17F555A000A6633F /* libSDMSupportability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1E17F555A000A6633F /* libSDMSupportability.a */; };
+		B450ED3B17F555A000A6633F /* libSMPRestClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED1F17F555A000A6633F /* libSMPRestClient.a */; };
+		B450ED3C17F555A000A6633F /* libsupClientUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED2017F555A000A6633F /* libsupClientUtil.a */; };
+		B450ED3D17F555A000A6633F /* libSUPProxyClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED2117F555A000A6633F /* libSUPProxyClient.a */; };
+		B450ED3E17F555A000A6633F /* libSUPSupportability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450ED2217F555A000A6633F /* libSUPSupportability.a */; };
+		B450ED3F17F555A000A6633F /* ODPVersion.txt in Resources */ = {isa = PBXBuildFile; fileRef = B450ED2317F555A000A6633F /* ODPVersion.txt */; };
+		B450ED4017F555A000A6633F /* SDMVersion.txt in Resources */ = {isa = PBXBuildFile; fileRef = B450ED2417F555A000A6633F /* SDMVersion.txt */; };
+		B4B730C4190A299700E04EBA /* AmbikaPushProvisionProfile.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = B4B730C3190A299700E04EBA /* AmbikaPushProvisionProfile.mobileprovision */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44234CF815D0F8AC004BA53E /* Button-Add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Add-icon.png"; sourceTree = "<group>"; };
+		44234CFB15D0F915004BA53E /* Button-Delete-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Delete-icon.png"; sourceTree = "<group>"; };
+		44234CFD15D0FE6E004BA53E /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		44234CFE15D0FE6E004BA53E /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Delete.png; sourceTree = "<group>"; };
+		44234CFF15D0FE6E004BA53E /* Download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Download.png; sourceTree = "<group>"; };
+		44234D0015D0FE6E004BA53E /* Update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Update.png; sourceTree = "<group>"; };
+		44234D0115D0FE6E004BA53E /* Upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upload.png; sourceTree = "<group>"; };
+		44244AA615BE9D7400A6A311 /* iOS Performance App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Performance App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44244AAA15BE9D7400A6A311 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44244AAC15BE9D7400A6A311 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44244AAE15BE9D7400A6A311 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44244AB215BE9D7400A6A311 /* iOS Performance App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Performance App-Info.plist"; sourceTree = "<group>"; };
+		44244AB415BE9D7400A6A311 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44244AB615BE9D7400A6A311 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44244AB815BE9D7400A6A311 /* iOS Performance App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Performance App-Prefix.pch"; sourceTree = "<group>"; };
+		44244AB915BE9D7400A6A311 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44244ABA15BE9D7400A6A311 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44244ABC15BE9D7400A6A311 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44244ABD15BE9D7400A6A311 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44244AC015BE9D7400A6A311 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		44244AC315BE9D7400A6A311 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		44244AD115BEE71500A6A311 /* DetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsView.h; sourceTree = "<group>"; };
+		44244AD215BEE71500A6A311 /* DetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsView.m; sourceTree = "<group>"; };
+		44244AD315BEE71500A6A311 /* DetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsView.xib; sourceTree = "<group>"; };
+		44278A2615BFC4F30097A94A /* PostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostView.h; sourceTree = "<group>"; };
+		44278A2715BFC4F30097A94A /* PostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostView.m; sourceTree = "<group>"; };
+		44278A2815BFC4F30097A94A /* PostView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostView.xib; sourceTree = "<group>"; };
+		44278A6415BFEE900097A94A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		44278A6515BFEE900097A94A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		44278A6615BFEE900097A94A /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		44278A6715BFEE900097A94A /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		44278A6815BFEE900097A94A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		44278A6915BFEE900097A94A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		44278A6A15BFEE900097A94A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		44278A6B15BFEE900097A94A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		44278A6C15BFEE900097A94A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4435362F15C68653005D7999 /* ImageScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScreen.h; sourceTree = "<group>"; };
+		4435363015C68653005D7999 /* ImageScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScreen.m; sourceTree = "<group>"; };
+		4435363115C68653005D7999 /* ImageScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageScreen.xib; sourceTree = "<group>"; };
+		4435363A15C69E68005D7999 /* Assassins3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Assassins3.jpg; sourceTree = "<group>"; };
+		4435363B15C69E68005D7999 /* clichemag_tv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clichemag_tv.jpg; sourceTree = "<group>"; };
+		4435363C15C69E68005D7999 /* witcher2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witcher2.png; sourceTree = "<group>"; };
+		4444F82A15DD3CB2000D9D7C /* The-Dark-Knight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The-Dark-Knight.jpg"; sourceTree = "<group>"; };
+		B450ECB517F555A000A6633F /* SDMConnectivity-API-Docs.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "SDMConnectivity-API-Docs.zip"; sourceTree = "<group>"; };
+		B450ECB617F555A000A6633F /* SDMParser-API-Docs.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "SDMParser-API-Docs.zip"; sourceTree = "<group>"; };
+		B450ECB717F555A000A6633F /* SDMSupportability-API-Docs.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "SDMSupportability-API-Docs.zip"; sourceTree = "<group>"; };
+		B450ECB817F555A000A6633F /* SMPRestClient-API-Docs.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "SMPRestClient-API-Docs.zip"; sourceTree = "<group>"; };
+		B450ECB917F555A000A6633F /* SUPProxyClient-API-Docs.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "SUPProxyClient-API-Docs.zip"; sourceTree = "<group>"; };
+		B450ECBC17F555A000A6633F /* SDMSupportability-Bundle.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "SDMSupportability-Bundle.zip"; sourceTree = "<group>"; };
+		B450ECBF17F555A000A6633F /* DataVault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataVault.h; sourceTree = "<group>"; };
+		B450ECC117F555A000A6633F /* PerformanceAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceAgent.h; sourceTree = "<group>"; };
+		B450ECC217F555A000A6633F /* PerformanceCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceCounter.h; sourceTree = "<group>"; };
+		B450ECC417F555A000A6633F /* BatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchRequest.h; sourceTree = "<group>"; };
+		B450ECC517F555A000A6633F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B450ECC617F555A000A6633F /* RouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteManager.h; sourceTree = "<group>"; };
+		B450ECC717F555A000A6633F /* SDMCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMCacheDelegate.h; sourceTree = "<group>"; };
+		B450ECC817F555A000A6633F /* SDMConnectivityException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMConnectivityException.h; sourceTree = "<group>"; };
+		B450ECC917F555A000A6633F /* SDMDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMDownloadCache.h; sourceTree = "<group>"; };
+		B450ECCA17F555A000A6633F /* SDMFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMFormDataRequest.h; sourceTree = "<group>"; };
+		B450ECCB17F555A000A6633F /* SDMHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMHttpRequest.h; sourceTree = "<group>"; };
+		B450ECCC17F555A000A6633F /* SDMHttpRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMHttpRequestDelegate.h; sourceTree = "<group>"; };
+		B450ECCD17F555A000A6633F /* SDMNetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMNetworkQueue.h; sourceTree = "<group>"; };
+		B450ECCE17F555A000A6633F /* SDMProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMProgressDelegate.h; sourceTree = "<group>"; };
+		B450ECCF17F555A000A6633F /* SDMRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMRequestBuilder.h; sourceTree = "<group>"; };
+		B450ECD017F555A000A6633F /* SDMRequesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMRequesting.h; sourceTree = "<group>"; };
+		B450ECD217F555A000A6633F /* NSStringConversionExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringConversionExtension.h; sourceTree = "<group>"; };
+		B450ECD317F555A000A6633F /* NSStringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExtension.h; sourceTree = "<group>"; };
+		B450ECD417F555A000A6633F /* SDMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMCache.h; sourceTree = "<group>"; };
+		B450ECD517F555A000A6633F /* SDMCacheException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMCacheException.h; sourceTree = "<group>"; };
+		B450ECD617F555A000A6633F /* SDMCaching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMCaching.h; sourceTree = "<group>"; };
+		B450ECD717F555A000A6633F /* SDMFunctionImportResultParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMFunctionImportResultParser.h; sourceTree = "<group>"; };
+		B450ECD817F555A000A6633F /* SDMGenericParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMGenericParser.h; sourceTree = "<group>"; };
+		B450ECD917F555A000A6633F /* SDMOData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMOData.h; sourceTree = "<group>"; };
+		B450ECDA17F555A000A6633F /* SDMODataCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataCollection.h; sourceTree = "<group>"; };
+		B450ECDB17F555A000A6633F /* SDMODataDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataDataParser.h; sourceTree = "<group>"; };
+		B450ECDC17F555A000A6633F /* SDMODataEntitySchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataEntitySchema.h; sourceTree = "<group>"; };
+		B450ECDD17F555A000A6633F /* SDMODataEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataEntry.h; sourceTree = "<group>"; };
+		B450ECDE17F555A000A6633F /* SDMODataError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataError.h; sourceTree = "<group>"; };
+		B450ECDF17F555A000A6633F /* SDMODataErrorXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataErrorXMLParser.h; sourceTree = "<group>"; };
+		B450ECE017F555A000A6633F /* SDMODataFunctionImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataFunctionImport.h; sourceTree = "<group>"; };
+		B450ECE117F555A000A6633F /* SDMODataIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataIconInfo.h; sourceTree = "<group>"; };
+		B450ECE217F555A000A6633F /* SDMODataLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataLink.h; sourceTree = "<group>"; };
+		B450ECE317F555A000A6633F /* SDMODataMetaDocumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataMetaDocumentParser.h; sourceTree = "<group>"; };
+		B450ECE417F555A000A6633F /* SDMODataProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataProperty.h; sourceTree = "<group>"; };
+		B450ECE517F555A000A6633F /* SDMODataPropertyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataPropertyInfo.h; sourceTree = "<group>"; };
+		B450ECE617F555A000A6633F /* SDMODataPropertyValueFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataPropertyValueFactory.h; sourceTree = "<group>"; };
+		B450ECE717F555A000A6633F /* SDMODataPropertyValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataPropertyValues.h; sourceTree = "<group>"; };
+		B450ECE817F555A000A6633F /* SDMODataSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataSchema.h; sourceTree = "<group>"; };
+		B450ECE917F555A000A6633F /* SDMODataServiceDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataServiceDocument.h; sourceTree = "<group>"; };
+		B450ECEA17F555A000A6633F /* SDMODataServiceDocumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataServiceDocumentParser.h; sourceTree = "<group>"; };
+		B450ECEB17F555A000A6633F /* SDMODataWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataWorkspace.h; sourceTree = "<group>"; };
+		B450ECEC17F555A000A6633F /* SDMODataXMLBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataXMLBuilder.h; sourceTree = "<group>"; };
+		B450ECED17F555A000A6633F /* SDMOpenSearchDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMOpenSearchDescription.h; sourceTree = "<group>"; };
+		B450ECEE17F555A000A6633F /* SDMOpenSearchDescriptionXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMOpenSearchDescriptionXMLParser.h; sourceTree = "<group>"; };
+		B450ECEF17F555A000A6633F /* SDMParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMParser.h; sourceTree = "<group>"; };
+		B450ECF017F555A000A6633F /* SDMParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMParserDelegate.h; sourceTree = "<group>"; };
+		B450ECF117F555A000A6633F /* SDMParserException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMParserException.h; sourceTree = "<group>"; };
+		B450ECF217F555A000A6633F /* SDMPerformanceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMPerformanceUtil.h; sourceTree = "<group>"; };
+		B450ECF317F555A000A6633F /* SDMPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMPersistence.h; sourceTree = "<group>"; };
+		B450ECF417F555A000A6633F /* SDMPersisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMPersisting.h; sourceTree = "<group>"; };
+		B450ECF517F555A000A6633F /* SDMSubscriptionXMLBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMSubscriptionXMLBuilder.h; sourceTree = "<group>"; };
+		B450ECF717F555A000A6633F /* SDMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMLogger.h; sourceTree = "<group>"; };
+		B450ECF817F555A000A6633F /* SDMLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMLogging.h; sourceTree = "<group>"; };
+		B450ECF917F555A000A6633F /* SDMPerfTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMPerfTimer.h; sourceTree = "<group>"; };
+		B450ECFB17F555A000A6633F /* SMPAppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPAppSettings.h; sourceTree = "<group>"; };
+		B450ECFC17F555A000A6633F /* SMPClientConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPClientConnection.h; sourceTree = "<group>"; };
+		B450ECFD17F555A000A6633F /* SMPUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPUserManager.h; sourceTree = "<group>"; };
+		B450ECFF17F555A000A6633F /* ODPAppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODPAppSettings.h; sourceTree = "<group>"; };
+		B450ED0017F555A000A6633F /* ODPCertificateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODPCertificateManager.h; sourceTree = "<group>"; };
+		B450ED0117F555A000A6633F /* ODPClientConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODPClientConnection.h; sourceTree = "<group>"; };
+		B450ED0217F555A000A6633F /* ODPClientListeners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODPClientListeners.h; sourceTree = "<group>"; };
+		B450ED0317F555A000A6633F /* ODPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODPRequest.h; sourceTree = "<group>"; };
+		B450ED0417F555A000A6633F /* ODPUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODPUserManager.h; sourceTree = "<group>"; };
+		B450ED0617F555A000A6633F /* SAPExtendedPassport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExtendedPassport.h; sourceTree = "<group>"; };
+		B450ED0717F555A000A6633F /* SUPE2ETraceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPE2ETraceController.h; sourceTree = "<group>"; };
+		B450ED0817F555A000A6633F /* SUPE2ETraceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPE2ETraceRequest.h; sourceTree = "<group>"; };
+		B450ED0917F555A000A6633F /* SUPE2ETraceSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPE2ETraceSettings.h; sourceTree = "<group>"; };
+		B450ED0A17F555A000A6633F /* SUPE2ETraceStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPE2ETraceStep.h; sourceTree = "<group>"; };
+		B450ED0B17F555A000A6633F /* SUPE2ETraceTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPE2ETraceTransaction.h; sourceTree = "<group>"; };
+		B450ED0E17F555A000A6633F /* libDatavault.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDatavault.a; sourceTree = "<group>"; };
+		B450ED0F17F555A000A6633F /* libMo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMo.a; sourceTree = "<group>"; };
+		B450ED1017F555A000A6633F /* libPerformanceLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPerformanceLib.a; sourceTree = "<group>"; };
+		B450ED1117F555A000A6633F /* libSDMConnectivity.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDMConnectivity.a; sourceTree = "<group>"; };
+		B450ED1217F555A000A6633F /* libSDMParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDMParser.a; sourceTree = "<group>"; };
+		B450ED1317F555A000A6633F /* libSDMSupportability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDMSupportability.a; sourceTree = "<group>"; };
+		B450ED1417F555A000A6633F /* libSMPRestClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSMPRestClient.a; sourceTree = "<group>"; };
+		B450ED1517F555A000A6633F /* libsupClientUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsupClientUtil.a; sourceTree = "<group>"; };
+		B450ED1617F555A000A6633F /* libSUPProxyClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSUPProxyClient.a; sourceTree = "<group>"; };
+		B450ED1717F555A000A6633F /* libSUPSupportability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSUPSupportability.a; sourceTree = "<group>"; };
+		B450ED1917F555A000A6633F /* libDatavault.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDatavault.a; sourceTree = "<group>"; };
+		B450ED1A17F555A000A6633F /* libMo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMo.a; sourceTree = "<group>"; };
+		B450ED1B17F555A000A6633F /* libPerformanceLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPerformanceLib.a; sourceTree = "<group>"; };
+		B450ED1C17F555A000A6633F /* libSDMConnectivity.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDMConnectivity.a; sourceTree = "<group>"; };
+		B450ED1D17F555A000A6633F /* libSDMParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDMParser.a; sourceTree = "<group>"; };
+		B450ED1E17F555A000A6633F /* libSDMSupportability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDMSupportability.a; sourceTree = "<group>"; };
+		B450ED1F17F555A000A6633F /* libSMPRestClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSMPRestClient.a; sourceTree = "<group>"; };
+		B450ED2017F555A000A6633F /* libsupClientUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsupClientUtil.a; sourceTree = "<group>"; };
+		B450ED2117F555A000A6633F /* libSUPProxyClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSUPProxyClient.a; sourceTree = "<group>"; };
+		B450ED2217F555A000A6633F /* libSUPSupportability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSUPSupportability.a; sourceTree = "<group>"; };
+		B450ED2317F555A000A6633F /* ODPVersion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ODPVersion.txt; sourceTree = "<group>"; };
+		B450ED2417F555A000A6633F /* SDMVersion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SDMVersion.txt; sourceTree = "<group>"; };
+		B4B730C3190A299700E04EBA /* AmbikaPushProvisionProfile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = AmbikaPushProvisionProfile.mobileprovision; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44244AA315BE9D7400A6A311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44278A6D15BFEE900097A94A /* CFNetwork.framework in Frameworks */,
+				44278A6E15BFEE900097A94A /* CoreFoundation.framework in Frameworks */,
+				44278A6F15BFEE900097A94A /* libstdc++.dylib in Frameworks */,
+				44278A7015BFEE900097A94A /* libz.1.2.5.dylib in Frameworks */,
+				44278A7115BFEE900097A94A /* MessageUI.framework in Frameworks */,
+				44278A7215BFEE900097A94A /* MobileCoreServices.framework in Frameworks */,
+				44278A7315BFEE900097A94A /* QuartzCore.framework in Frameworks */,
+				44278A7415BFEE900097A94A /* Security.framework in Frameworks */,
+				44278A7515BFEE900097A94A /* SystemConfiguration.framework in Frameworks */,
+				44244AAB15BE9D7400A6A311 /* UIKit.framework in Frameworks */,
+				44244AAD15BE9D7400A6A311 /* Foundation.framework in Frameworks */,
+				44244AAF15BE9D7400A6A311 /* CoreGraphics.framework in Frameworks */,
+				B450ED2B17F555A000A6633F /* libDatavault.a in Frameworks */,
+				B450ED2C17F555A000A6633F /* libMo.a in Frameworks */,
+				B450ED2D17F555A000A6633F /* libPerformanceLib.a in Frameworks */,
+				B450ED2E17F555A000A6633F /* libSDMConnectivity.a in Frameworks */,
+				B450ED2F17F555A000A6633F /* libSDMParser.a in Frameworks */,
+				B450ED3017F555A000A6633F /* libSDMSupportability.a in Frameworks */,
+				B450ED3117F555A000A6633F /* libSMPRestClient.a in Frameworks */,
+				B450ED3217F555A000A6633F /* libsupClientUtil.a in Frameworks */,
+				B450ED3317F555A000A6633F /* libSUPProxyClient.a in Frameworks */,
+				B450ED3417F555A000A6633F /* libSUPSupportability.a in Frameworks */,
+				B450ED3517F555A000A6633F /* libDatavault.a in Frameworks */,
+				B450ED3617F555A000A6633F /* libMo.a in Frameworks */,
+				B450ED3717F555A000A6633F /* libPerformanceLib.a in Frameworks */,
+				B450ED3817F555A000A6633F /* libSDMConnectivity.a in Frameworks */,
+				B450ED3917F555A000A6633F /* libSDMParser.a in Frameworks */,
+				B450ED3A17F555A000A6633F /* libSDMSupportability.a in Frameworks */,
+				B450ED3B17F555A000A6633F /* libSMPRestClient.a in Frameworks */,
+				B450ED3C17F555A000A6633F /* libsupClientUtil.a in Frameworks */,
+				B450ED3D17F555A000A6633F /* libSUPProxyClient.a in Frameworks */,
+				B450ED3E17F555A000A6633F /* libSUPSupportability.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44244A9B15BE9D7400A6A311 = {
+			isa = PBXGroup;
+			children = (
+				B4B730C3190A299700E04EBA /* AmbikaPushProvisionProfile.mobileprovision */,
+				B450ECB317F555A000A6633F /* iOS */,
+				4435363A15C69E68005D7999 /* Assassins3.jpg */,
+				4444F82A15DD3CB2000D9D7C /* The-Dark-Knight.jpg */,
+				44234CFD15D0FE6E004BA53E /* Add.png */,
+				44234CFE15D0FE6E004BA53E /* Delete.png */,
+				44234CFF15D0FE6E004BA53E /* Download.png */,
+				44234D0015D0FE6E004BA53E /* Update.png */,
+				44234D0115D0FE6E004BA53E /* Upload.png */,
+				44234CF815D0F8AC004BA53E /* Button-Add-icon.png */,
+				4435363B15C69E68005D7999 /* clichemag_tv.jpg */,
+				44234CFB15D0F915004BA53E /* Button-Delete-icon.png */,
+				4435363C15C69E68005D7999 /* witcher2.png */,
+				44244AB015BE9D7400A6A311 /* iOS Performance App */,
+				44244AA915BE9D7400A6A311 /* Frameworks */,
+				44244AA715BE9D7400A6A311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44244AA715BE9D7400A6A311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44244AA615BE9D7400A6A311 /* iOS Performance App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44244AA915BE9D7400A6A311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44278A6415BFEE900097A94A /* CFNetwork.framework */,
+				44278A6515BFEE900097A94A /* CoreFoundation.framework */,
+				44278A6615BFEE900097A94A /* libstdc++.dylib */,
+				44278A6715BFEE900097A94A /* libz.1.2.5.dylib */,
+				44278A6815BFEE900097A94A /* MessageUI.framework */,
+				44278A6915BFEE900097A94A /* MobileCoreServices.framework */,
+				44278A6A15BFEE900097A94A /* QuartzCore.framework */,
+				44278A6B15BFEE900097A94A /* Security.framework */,
+				44278A6C15BFEE900097A94A /* SystemConfiguration.framework */,
+				44244AAA15BE9D7400A6A311 /* UIKit.framework */,
+				44244AAC15BE9D7400A6A311 /* Foundation.framework */,
+				44244AAE15BE9D7400A6A311 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44244AB015BE9D7400A6A311 /* iOS Performance App */ = {
+			isa = PBXGroup;
+			children = (
+				44244AB915BE9D7400A6A311 /* AppDelegate.h */,
+				44244ABA15BE9D7400A6A311 /* AppDelegate.m */,
+				44244ABC15BE9D7400A6A311 /* ViewController.h */,
+				44244ABD15BE9D7400A6A311 /* ViewController.m */,
+				44244ABF15BE9D7400A6A311 /* ViewController_iPhone.xib */,
+				44244AC215BE9D7400A6A311 /* ViewController_iPad.xib */,
+				44244AB115BE9D7400A6A311 /* Supporting Files */,
+				44244AD115BEE71500A6A311 /* DetailsView.h */,
+				44244AD215BEE71500A6A311 /* DetailsView.m */,
+				44244AD315BEE71500A6A311 /* DetailsView.xib */,
+				44278A2615BFC4F30097A94A /* PostView.h */,
+				44278A2715BFC4F30097A94A /* PostView.m */,
+				44278A2815BFC4F30097A94A /* PostView.xib */,
+				4435362F15C68653005D7999 /* ImageScreen.h */,
+				4435363015C68653005D7999 /* ImageScreen.m */,
+				4435363115C68653005D7999 /* ImageScreen.xib */,
+			);
+			path = "iOS Performance App";
+			sourceTree = "<group>";
+		};
+		44244AB115BE9D7400A6A311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44244AB215BE9D7400A6A311 /* iOS Performance App-Info.plist */,
+				44244AB315BE9D7400A6A311 /* InfoPlist.strings */,
+				44244AB615BE9D7400A6A311 /* main.m */,
+				44244AB815BE9D7400A6A311 /* iOS Performance App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B450ECB317F555A000A6633F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECB417F555A000A6633F /* docs */,
+				B450ECBA17F555A000A6633F /* includes */,
+				B450ED0C17F555A000A6633F /* libraries */,
+				B450ED2317F555A000A6633F /* ODPVersion.txt */,
+				B450ED2417F555A000A6633F /* SDMVersion.txt */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		B450ECB417F555A000A6633F /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECB517F555A000A6633F /* SDMConnectivity-API-Docs.zip */,
+				B450ECB617F555A000A6633F /* SDMParser-API-Docs.zip */,
+				B450ECB717F555A000A6633F /* SDMSupportability-API-Docs.zip */,
+				B450ECB817F555A000A6633F /* SMPRestClient-API-Docs.zip */,
+				B450ECB917F555A000A6633F /* SUPProxyClient-API-Docs.zip */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		B450ECBA17F555A000A6633F /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECBB17F555A000A6633F /* bundles */,
+				B450ECBD17F555A000A6633F /* public */,
+			);
+			path = includes;
+			sourceTree = "<group>";
+		};
+		B450ECBB17F555A000A6633F /* bundles */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECBC17F555A000A6633F /* SDMSupportability-Bundle.zip */,
+			);
+			path = bundles;
+			sourceTree = "<group>";
+		};
+		B450ECBD17F555A000A6633F /* public */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECBE17F555A000A6633F /* Datavault */,
+				B450ECC017F555A000A6633F /* PerformanceLib */,
+				B450ECC317F555A000A6633F /* SDMConnectivity */,
+				B450ECD117F555A000A6633F /* SDMParser */,
+				B450ECF617F555A000A6633F /* SDMSupportability */,
+				B450ECFA17F555A000A6633F /* SMPRestClient */,
+				B450ECFE17F555A000A6633F /* SUPProxyClient */,
+				B450ED0517F555A000A6633F /* SUPSupportability */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		B450ECBE17F555A000A6633F /* Datavault */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECBF17F555A000A6633F /* DataVault.h */,
+			);
+			path = Datavault;
+			sourceTree = "<group>";
+		};
+		B450ECC017F555A000A6633F /* PerformanceLib */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECC117F555A000A6633F /* PerformanceAgent.h */,
+				B450ECC217F555A000A6633F /* PerformanceCounter.h */,
+			);
+			path = PerformanceLib;
+			sourceTree = "<group>";
+		};
+		B450ECC317F555A000A6633F /* SDMConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECC417F555A000A6633F /* BatchRequest.h */,
+				B450ECC517F555A000A6633F /* Reachability.h */,
+				B450ECC617F555A000A6633F /* RouteManager.h */,
+				B450ECC717F555A000A6633F /* SDMCacheDelegate.h */,
+				B450ECC817F555A000A6633F /* SDMConnectivityException.h */,
+				B450ECC917F555A000A6633F /* SDMDownloadCache.h */,
+				B450ECCA17F555A000A6633F /* SDMFormDataRequest.h */,
+				B450ECCB17F555A000A6633F /* SDMHttpRequest.h */,
+				B450ECCC17F555A000A6633F /* SDMHttpRequestDelegate.h */,
+				B450ECCD17F555A000A6633F /* SDMNetworkQueue.h */,
+				B450ECCE17F555A000A6633F /* SDMProgressDelegate.h */,
+				B450ECCF17F555A000A6633F /* SDMRequestBuilder.h */,
+				B450ECD017F555A000A6633F /* SDMRequesting.h */,
+			);
+			path = SDMConnectivity;
+			sourceTree = "<group>";
+		};
+		B450ECD117F555A000A6633F /* SDMParser */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECD217F555A000A6633F /* NSStringConversionExtension.h */,
+				B450ECD317F555A000A6633F /* NSStringExtension.h */,
+				B450ECD417F555A000A6633F /* SDMCache.h */,
+				B450ECD517F555A000A6633F /* SDMCacheException.h */,
+				B450ECD617F555A000A6633F /* SDMCaching.h */,
+				B450ECD717F555A000A6633F /* SDMFunctionImportResultParser.h */,
+				B450ECD817F555A000A6633F /* SDMGenericParser.h */,
+				B450ECD917F555A000A6633F /* SDMOData.h */,
+				B450ECDA17F555A000A6633F /* SDMODataCollection.h */,
+				B450ECDB17F555A000A6633F /* SDMODataDataParser.h */,
+				B450ECDC17F555A000A6633F /* SDMODataEntitySchema.h */,
+				B450ECDD17F555A000A6633F /* SDMODataEntry.h */,
+				B450ECDE17F555A000A6633F /* SDMODataError.h */,
+				B450ECDF17F555A000A6633F /* SDMODataErrorXMLParser.h */,
+				B450ECE017F555A000A6633F /* SDMODataFunctionImport.h */,
+				B450ECE117F555A000A6633F /* SDMODataIconInfo.h */,
+				B450ECE217F555A000A6633F /* SDMODataLink.h */,
+				B450ECE317F555A000A6633F /* SDMODataMetaDocumentParser.h */,
+				B450ECE417F555A000A6633F /* SDMODataProperty.h */,
+				B450ECE517F555A000A6633F /* SDMODataPropertyInfo.h */,
+				B450ECE617F555A000A6633F /* SDMODataPropertyValueFactory.h */,
+				B450ECE717F555A000A6633F /* SDMODataPropertyValues.h */,
+				B450ECE817F555A000A6633F /* SDMODataSchema.h */,
+				B450ECE917F555A000A6633F /* SDMODataServiceDocument.h */,
+				B450ECEA17F555A000A6633F /* SDMODataServiceDocumentParser.h */,
+				B450ECEB17F555A000A6633F /* SDMODataWorkspace.h */,
+				B450ECEC17F555A000A6633F /* SDMODataXMLBuilder.h */,
+				B450ECED17F555A000A6633F /* SDMOpenSearchDescription.h */,
+				B450ECEE17F555A000A6633F /* SDMOpenSearchDescriptionXMLParser.h */,
+				B450ECEF17F555A000A6633F /* SDMParser.h */,
+				B450ECF017F555A000A6633F /* SDMParserDelegate.h */,
+				B450ECF117F555A000A6633F /* SDMParserException.h */,
+				B450ECF217F555A000A6633F /* SDMPerformanceUtil.h */,
+				B450ECF317F555A000A6633F /* SDMPersistence.h */,
+				B450ECF417F555A000A6633F /* SDMPersisting.h */,
+				B450ECF517F555A000A6633F /* SDMSubscriptionXMLBuilder.h */,
+			);
+			path = SDMParser;
+			sourceTree = "<group>";
+		};
+		B450ECF617F555A000A6633F /* SDMSupportability */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECF717F555A000A6633F /* SDMLogger.h */,
+				B450ECF817F555A000A6633F /* SDMLogging.h */,
+				B450ECF917F555A000A6633F /* SDMPerfTimer.h */,
+			);
+			path = SDMSupportability;
+			sourceTree = "<group>";
+		};
+		B450ECFA17F555A000A6633F /* SMPRestClient */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECFB17F555A000A6633F /* SMPAppSettings.h */,
+				B450ECFC17F555A000A6633F /* SMPClientConnection.h */,
+				B450ECFD17F555A000A6633F /* SMPUserManager.h */,
+			);
+			path = SMPRestClient;
+			sourceTree = "<group>";
+		};
+		B450ECFE17F555A000A6633F /* SUPProxyClient */ = {
+			isa = PBXGroup;
+			children = (
+				B450ECFF17F555A000A6633F /* ODPAppSettings.h */,
+				B450ED0017F555A000A6633F /* ODPCertificateManager.h */,
+				B450ED0117F555A000A6633F /* ODPClientConnection.h */,
+				B450ED0217F555A000A6633F /* ODPClientListeners.h */,
+				B450ED0317F555A000A6633F /* ODPRequest.h */,
+				B450ED0417F555A000A6633F /* ODPUserManager.h */,
+			);
+			path = SUPProxyClient;
+			sourceTree = "<group>";
+		};
+		B450ED0517F555A000A6633F /* SUPSupportability */ = {
+			isa = PBXGroup;
+			children = (
+				B450ED0617F555A000A6633F /* SAPExtendedPassport.h */,
+				B450ED0717F555A000A6633F /* SUPE2ETraceController.h */,
+				B450ED0817F555A000A6633F /* SUPE2ETraceRequest.h */,
+				B450ED0917F555A000A6633F /* SUPE2ETraceSettings.h */,
+				B450ED0A17F555A000A6633F /* SUPE2ETraceStep.h */,
+				B450ED0B17F555A000A6633F /* SUPE2ETraceTransaction.h */,
+			);
+			path = SUPSupportability;
+			sourceTree = "<group>";
+		};
+		B450ED0C17F555A000A6633F /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B450ED0D17F555A000A6633F /* Debug-universal */,
+				B450ED1817F555A000A6633F /* Release-universal */,
+			);
+			path = libraries;
+			sourceTree = "<group>";
+		};
+		B450ED0D17F555A000A6633F /* Debug-universal */ = {
+			isa = PBXGroup;
+			children = (
+				B450ED0E17F555A000A6633F /* libDatavault.a */,
+				B450ED0F17F555A000A6633F /* libMo.a */,
+				B450ED1017F555A000A6633F /* libPerformanceLib.a */,
+				B450ED1117F555A000A6633F /* libSDMConnectivity.a */,
+				B450ED1217F555A000A6633F /* libSDMParser.a */,
+				B450ED1317F555A000A6633F /* libSDMSupportability.a */,
+				B450ED1417F555A000A6633F /* libSMPRestClient.a */,
+				B450ED1517F555A000A6633F /* libsupClientUtil.a */,
+				B450ED1617F555A000A6633F /* libSUPProxyClient.a */,
+				B450ED1717F555A000A6633F /* libSUPSupportability.a */,
+			);
+			path = "Debug-universal";
+			sourceTree = "<group>";
+		};
+		B450ED1817F555A000A6633F /* Release-universal */ = {
+			isa = PBXGroup;
+			children = (
+				B450ED1917F555A000A6633F /* libDatavault.a */,
+				B450ED1A17F555A000A6633F /* libMo.a */,
+				B450ED1B17F555A000A6633F /* libPerformanceLib.a */,
+				B450ED1C17F555A000A6633F /* libSDMConnectivity.a */,
+				B450ED1D17F555A000A6633F /* libSDMParser.a */,
+				B450ED1E17F555A000A6633F /* libSDMSupportability.a */,
+				B450ED1F17F555A000A6633F /* libSMPRestClient.a */,
+				B450ED2017F555A000A6633F /* libsupClientUtil.a */,
+				B450ED2117F555A000A6633F /* libSUPProxyClient.a */,
+				B450ED2217F555A000A6633F /* libSUPSupportability.a */,
+			);
+			path = "Release-universal";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44244AA515BE9D7400A6A311 /* iOS Performance App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44244AC715BE9D7400A6A311 /* Build configuration list for PBXNativeTarget "iOS Performance App" */;
+			buildPhases = (
+				44244AA215BE9D7400A6A311 /* Sources */,
+				44244AA315BE9D7400A6A311 /* Frameworks */,
+				44244AA415BE9D7400A6A311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Performance App";
+			productName = "iOS Performance App";
+			productReference = 44244AA615BE9D7400A6A311 /* iOS Performance App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44244A9D15BE9D7400A6A311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 44244AA015BE9D7400A6A311 /* Build configuration list for PBXProject "iOS Performance App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44244A9B15BE9D7400A6A311;
+			productRefGroup = 44244AA715BE9D7400A6A311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44244AA515BE9D7400A6A311 /* iOS Performance App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44244AA415BE9D7400A6A311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44244AB515BE9D7400A6A311 /* InfoPlist.strings in Resources */,
+				44244AC115BE9D7400A6A311 /* ViewController_iPhone.xib in Resources */,
+				44244AC415BE9D7400A6A311 /* ViewController_iPad.xib in Resources */,
+				44244AD515BEE71500A6A311 /* DetailsView.xib in Resources */,
+				44278A2A15BFC4F30097A94A /* PostView.xib in Resources */,
+				4435363315C68653005D7999 /* ImageScreen.xib in Resources */,
+				4435363D15C69E68005D7999 /* Assassins3.jpg in Resources */,
+				4435363E15C69E68005D7999 /* clichemag_tv.jpg in Resources */,
+				4435363F15C69E68005D7999 /* witcher2.png in Resources */,
+				44234CF915D0F8AC004BA53E /* Button-Add-icon.png in Resources */,
+				44234CFC15D0F915004BA53E /* Button-Delete-icon.png in Resources */,
+				44234D0215D0FE6E004BA53E /* Add.png in Resources */,
+				44234D0315D0FE6E004BA53E /* Delete.png in Resources */,
+				44234D0415D0FE6E004BA53E /* Download.png in Resources */,
+				44234D0515D0FE6E004BA53E /* Update.png in Resources */,
+				44234D0615D0FE6E004BA53E /* Upload.png in Resources */,
+				4444F82B15DD3CB2000D9D7C /* The-Dark-Knight.jpg in Resources */,
+				B450ED2517F555A000A6633F /* SDMConnectivity-API-Docs.zip in Resources */,
+				B450ED2617F555A000A6633F /* SDMParser-API-Docs.zip in Resources */,
+				B450ED2717F555A000A6633F /* SDMSupportability-API-Docs.zip in Resources */,
+				B450ED2817F555A000A6633F /* SMPRestClient-API-Docs.zip in Resources */,
+				B450ED2917F555A000A6633F /* SUPProxyClient-API-Docs.zip in Resources */,
+				B450ED2A17F555A000A6633F /* SDMSupportability-Bundle.zip in Resources */,
+				B450ED3F17F555A000A6633F /* ODPVersion.txt in Resources */,
+				B4B730C4190A299700E04EBA /* AmbikaPushProvisionProfile.mobileprovision in Resources */,
+				B450ED4017F555A000A6633F /* SDMVersion.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44244AA215BE9D7400A6A311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44244AB715BE9D7400A6A311 /* main.m in Sources */,
+				44244ABB15BE9D7400A6A311 /* AppDelegate.m in Sources */,
+				44244ABE15BE9D7400A6A311 /* ViewController.m in Sources */,
+				44244AD415BEE71500A6A311 /* DetailsView.m in Sources */,
+				44278A2915BFC4F30097A94A /* PostView.m in Sources */,
+				4435363215C68653005D7999 /* ImageScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44244AB315BE9D7400A6A311 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44244AB415BE9D7400A6A311 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44244ABF15BE9D7400A6A311 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44244AC015BE9D7400A6A311 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		44244AC215BE9D7400A6A311 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44244AC315BE9D7400A6A311 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44244AC515BE9D7400A6A311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44244AC615BE9D7400A6A311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44244AC815BE9D7400A6A311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ambika KV (4HVGZMS22T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ambika KV (4HVGZMS22T)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Performance App/iOS Performance App-Prefix.pch";
+				INFOPLIST_FILE = "iOS Performance App/iOS Performance App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iOS/libraries/Debug-universal\"",
+					"\"$(SRCROOT)/iOS/libraries/Release-universal\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D8DC920C-DACD-457F-BE00-BA6EEE9E964E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D8DC920C-DACD-457F-BE00-BA6EEE9E964E";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44244AC915BE9D7400A6A311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ambika KV (4HVGZMS22T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ambika KV (4HVGZMS22T)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Performance App/iOS Performance App-Prefix.pch";
+				INFOPLIST_FILE = "iOS Performance App/iOS Performance App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iOS/libraries/Debug-universal\"",
+					"\"$(SRCROOT)/iOS/libraries/Release-universal\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D8DC920C-DACD-457F-BE00-BA6EEE9E964E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D8DC920C-DACD-457F-BE00-BA6EEE9E964E";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44244AA015BE9D7400A6A311 /* Build configuration list for PBXProject "iOS Performance App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44244AC515BE9D7400A6A311 /* Debug */,
+				44244AC615BE9D7400A6A311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44244AC715BE9D7400A6A311 /* Build configuration list for PBXNativeTarget "iOS Performance App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44244AC815BE9D7400A6A311 /* Debug */,
+				44244AC915BE9D7400A6A311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44244A9D15BE9D7400A6A311 /* Project object */;
+}

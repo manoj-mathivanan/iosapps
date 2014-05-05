@@ -1,0 +1,1024 @@
+TiOS Performance App
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist "Build/Products/Debug-iphoneos/iOS Performance App.app/ResourceRules.plist"
+cProcessInfoPlistFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Info.plist" "iOS Performance App/iOS Performance App-Info.plist"
+cProcessPCH "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch.pth" "iOS Performance App/iOS Performance App-Prefix.pch" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch.pth" "iOS Performance App/iOS Performance App-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ViewController.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ImageScreen.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/main.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/AppDelegate.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/main.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/AppDelegate.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ViewController.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/DetailsView.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/PostView.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ImageScreen.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/DetailsView.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/PostView.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/iOS Performance App" normal armv7
+cLd "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/iOS Performance App" normal armv7s
+cCreateUniversalBinary "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App" normal "armv7 armv7s"
+cGenerateDSYMFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app.dSYM" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App"
+cCopyStringsFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/en.lproj/InfoPlist.strings" "iOS Performance App/en.lproj/InfoPlist.strings"
+cCompileXIB "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPhone.xib"
+cCompileXIB "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPad.xib"
+cCompileXIB "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.xib"
+cCompileXIB "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.xib"
+cCompileXIB "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.xib"
+cCpResource Assassins3.jpg "Build/Products/Debug-iphoneos/iOS Performance App.app/Assassins3.jpg"
+cCpResource clichemag_tv.jpg "Build/Products/Debug-iphoneos/iOS Performance App.app/clichemag_tv.jpg"
+cCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/witcher2.png" witcher2.png
+cCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Add-icon.png" Button-Add-icon.png
+cCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Delete-icon.png" Button-Delete-icon.png
+cCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Add.png" Add.png
+cCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Delete.png" Delete.png
+cCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Download.png" Download.png
+cCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Update.png" Update.png
+cCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Upload.png" Upload.png
+cCpResource The-Dark-Knight.jpg "Build/Products/Debug-iphoneos/iOS Performance App.app/The-Dark-Knight.jpg"
+cCpResource bundles/SDMSupportability-Bundle.zip "Build/Products/Debug-iphoneos/iOS Performance App.app/SDMSupportability-Bundle.zip"
+cProcessProductPackaging "/Users/i061822/Library/MobileDevice/Provisioning Profiles/FD07AE3E-5128-4760-9F6E-789EA2CBF24D.mobileprovision" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/embedded.mobileprovision"
+cProcessProductPackaging "/Users/i061822/Library/MobileDevice/Provisioning Profiles/FD07AE3E-5128-4760-9F6E-789EA2CBF24D.mobileprovision" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/embedded.mobileprovision"
+cTouch "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App.xcent"
+cCodeSign "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c00000000506617540000000000000094
+t1348867924
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c00000000506617540000000000000096
+t1348867924
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005090D14100000000002C74D0
+t1351668033
+s2913488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000050661760000000000049C700
+t1348867936
+s4835072
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506617600000000000322740
+t1348867936
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005090D1410000000000629C80
+t1351668033
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000005090D14100000000001DD6E0
+t1351668033
+s1955552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005066176A000000000012C210
+t1348867946
+s1229328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005090D1410000000000359720
+t1351668033
+s3512096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005066176B00000000000A8A50
+t1348867947
+s690768
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005066176C00000000000CAF00
+t1348867948
+s831232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005066176D00000000011BA850
+t1348867949
+s18589776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/lib/libstdc++.dylib
+c000000005090D15F0000000000151880
+t1351668063
+s1382528
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/lib/libz.1.2.5.dylib
+c00000000506617920000000000022520
+t1348867986
+s140576
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Add.png
+c000000005020C51C000000000000610C
+t1344324892
+s24844
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Assassins3.jpg
+c0000000050165954000000000001AFFC
+t1343641940
+s110588
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch.pth
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch.pth
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/DetailsView.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ImageScreen.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/PostView.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/iOS Performance App
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/iOS Performance App.LinkFileList
+c0000000050F912290000000000000401
+t1358500393
+s1025
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/DetailsView.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ImageScreen.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/PostView.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/iOS Performance App
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/iOS Performance App.LinkFileList
+c0000000050F912290000000000000407
+t1358500393
+s1031
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App.xcent
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app.dSYM
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Add.png
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Assassins3.jpg
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Add-icon.png
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Delete-icon.png
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Delete.png
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/DetailsView.nib
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Download.png
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/ImageScreen.nib
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Info.plist
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/PkgInfo
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/PostView.nib
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/ResourceRules.plist
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/SDMSupportability-Bundle.zip
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/The-Dark-Knight.jpg
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Update.png
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Upload.png
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/clichemag_tv.jpg
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/en.lproj/ViewController_iPad.nib
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/en.lproj/ViewController_iPhone.nib
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/witcher2.png
+t2
+s0
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Button-Add-icon.png
+c000000005020C1150000000000008A57
+t1344323861
+s35415
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Button-Delete-icon.png
+c000000005020C18900000000000067E9
+t1344323977
+s26601
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Debug-universal/libSDMConnectivity.a
+c0000000050C1394A0000000000254494
+t1354840394
+s2442388
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Debug-universal/libSDMParser.a
+c0000000050C13974000000000047CC24
+t1354840436
+s4705316
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Debug-universal/libSDMSupportability.a
+c0000000050C1398C00000000001D7CAC
+t1354840460
+s1932460
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Delete.png
+c000000005020C5070000000000006B9B
+t1344324871
+s27547
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Download.png
+c00000000502D142C000000000001344B
+t1345131564
+s78923
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Release-universal/libSDMConnectivity.a
+c0000000050C1394A000000000025ADAC
+t1354840394
+s2469292
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Release-universal/libSDMParser.a
+c0000000050C1D2FF000000000047129C
+t1354879743
+s4657820
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Release-universal/libSDMSupportability.a
+c0000000050C1398C00000000001D6494
+t1354840460
+s1926292
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/The-Dark-Knight.jpg
+c00000000502D051E00000000000006F5
+t1345127710
+s1781
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Update.png
+c000000005020C4F2000000000000759A
+t1344324850
+s30106
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/Upload.png
+c000000005020E21200000000000134B1
+t1344332306
+s79025
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/bundles/SDMSupportability-Bundle.zip
+c0000000050C139900000000000001D8C
+t1354840464
+s7564
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/clichemag_tv.jpg
+c0000000050164FA60000000000008716
+t1343639462
+s34582
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m
+c000000005020F2D50000000000000D55
+t1344336597
+s3413
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m
+c000000005020DF250000000000001F4A
+t1344331557
+s8010
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.xib
+c0000000050F563710000000000006CD8
+t1358259057
+s27864
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m
+c0000000050EFBEAC00000000000012F3
+t1357889196
+s4851
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.xib
+c000000005020E3990000000000002A9C
+t1344332697
+s10908
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m
+c000000005020DF3C0000000000001F53
+t1344331580
+s8019
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.xib
+c000000005020E1CD0000000000008965
+t1344332237
+s35173
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.m
+c0000000050F57A5C000000000000407C
+t1358264924
+s16508
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/InfoPlist.strings
+c00000000500E65F4000000000000002D
+t1343120884
+s45
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPad.xib
+c00000000500E65F40000000000001454
+t1343120884
+s5204
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPhone.xib
+c000000005020E0750000000000002188
+t1344331893
+s8584
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/iOS Performance App-Prefix.pch
+c00000000500E65F40000000000000155
+t1343120884
+s341
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m
+c00000000500E65F40000000000000166
+t1343120884
+s358
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Debug-universal/libAfariaSLL.a
+c0000000050DB98B000000000008469DC
+t1356568752
+s8677852
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Debug-universal/libDatavault.a
+c0000000050DB98B000000000000B4404
+t1356568752
+s738308
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Debug-universal/libMo.a
+c0000000050DB98B000000000037706B4
+t1356568752
+s58132148
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Debug-universal/libPerformanceLib.a
+c0000000050DB98B00000000000052904
+t1356568752
+s338180
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Debug-universal/libSUPProxyClient.a
+c0000000050DB98B20000000000360384
+t1356568754
+s3539844
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Debug-universal/libSUPSupportability.a
+c0000000050DB98B2000000000009B7B4
+t1356568754
+s636852
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Debug-universal/libsupClientUtil.a
+c0000000050DB98B0000000000041A89C
+t1356568752
+s4303004
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Release-universal/libAfariaSLL.a
+c0000000050DB98B0000000000085E314
+t1356568752
+s8774420
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Release-universal/libDatavault.a
+c0000000050DB98B000000000000A841C
+t1356568752
+s689180
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Release-universal/libMo.a
+c0000000050DB98B80000000000AEF9EC
+t1356568760
+s11467244
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Release-universal/libPerformanceLib.a
+c0000000050DB98B000000000000547B4
+t1356568752
+s346036
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Release-universal/libSUPProxyClient.a
+c0000000050DB98B0000000000034E5AC
+t1356568752
+s3466668
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Release-universal/libSUPSupportability.a
+c0000000050DB98B000000000000998F4
+t1356568752
+s628980
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Release-universal/libsupClientUtil.a
+c0000000050DB98B00000000000452114
+t1356568752
+s4530452
+
+N/Users/i061822/Desktop/MyApps/iOS Performance App/witcher2.png
+c000000005019399500000000000182E9
+t1343830421
+s99049
+
+N/Users/i061822/Library/MobileDevice/Provisioning Profiles/FD07AE3E-5128-4760-9F6E-789EA2CBF24D.mobileprovision
+c00000000502136B6000000000000261E
+t1344353974
+s9758
+
+NiOS Performance App/iOS Performance App-Info.plist
+c0000000050266D770000000000000599
+t1344695671
+s1433
+
+CBuild AST from "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m"
+r0
+
+CBuild AST from "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m"
+r0
+
+CBuild AST from "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m"
+r0
+
+CBuild AST from "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.m"
+r0
+
+CBuild AST from "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb24a91a949a9b641^9049dea949a9b641^---0#1#0#--18"Check dependencies36"8DF4F32C-1915-4548-B0C1-21F6CAE70C10-
+
+CCodeSign "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"
+s380193207.909777
+e380193209.215029
+r1
+xCodeSign
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CodeSign "Build/Products/Debug-iphoneos/iOS Performance App.app"22ffe8b749a9b641^740d37b949a9b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Build/Products/Debug-iphoneos/iOS%20Performance%20App.app/0000000000000000^955"CodeSign "Build/Products/Debug-iphoneos/iOS Performance App.app"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 1e28991c82023bfcc404fa103a10ee6ba4cacbfb "--resource-rules=/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/ResourceRules.plist" --entitlements "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App.xcent" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"36"4AFAB25E-12CF-421E-9C5D-D868DC747C1E-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/AppDelegate.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.674250
+e380193194.816131
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/AppDelegate.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m96d1acaa49a9b641^6004d1aa49a9b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/AppDelegate.m0000000000000000^3979"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/AppDelegate.o" "iOS Performance App/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/AppDelegate.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/AppDelegate.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/AppDelegate.o"36"F7036553-899A-48FE-94D5-F7BC30285551-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/DetailsView.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.704055
+e380193194.873995
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/DetailsView.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m:156:57: warning: 'cString' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]
+o    NSMutableData *data = [NSMutableData dataWithBytes:[putBody cString] length:[putBody length]];
+o                                                        ^
+o/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m:16:17: warning: incomplete implementation [-Wincomplete-implementation]
+o@implementation DetailsView
+o                ^
+o/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.h:38:1: note: method definition for 'imageDwnload:' not found
+o-(IBAction)imageDwnload:(id)sender;
+o^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.med9ab4aa49a9b641^eacedfaa49a9b641^-745"/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m:156:57: warning: 'cString' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]    NSMutableData *data = [NSMutableData dataWithBytes:[putBody cString] length:[putBody length]];                                                        ^/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m:16:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation DetailsView                ^/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.h:38:1: note: method definition for 'imageDwnload:' not found-(IBAction)imageDwnload:(id)sender;^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@52"'cString' is deprecated: first deprecated in iOS 2.0-380193194#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/DetailsView.m0000000000000000^155#56#155#56#7406#0#12"Deprecations--2@25"Incomplete implementation-380193194#18446744073709551615#0#1(2@47"Method definition for 'imageDwnload:' not found-380193194#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/DetailsView.h0000000000000000^37#0#37#0#1146#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/DetailsView.m0000000000000000^15#16#15#16#255#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/DetailsView.m0000000000000000^3979"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/DetailsView.o" "iOS Performance App/DetailsView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/DetailsView.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/DetailsView.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/DetailsView.o"36"0F6E0752-AEFB-438B-BC8E-7ED73BFC5E93-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ImageScreen.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.817687
+e380193194.993881
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ImageScreen.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m008ed1aa49a9b641^5589feaa49a9b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/ImageScreen.m0000000000000000^3979"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ImageScreen.o" "iOS Performance App/ImageScreen.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ImageScreen.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ImageScreen.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ImageScreen.o"36"51A61E84-E948-4712-BDD2-9AB4C82F45FE-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/PostView.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.739848
+e380193194.962460
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/PostView.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m:125:57: warning: 'cString' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]
+o    NSMutableData *data = [NSMutableData dataWithBytes:[postBody cString] length:[postBody length]];
+o                                                        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.mb6d8bdaa49a9b641^e57bf6aa49a9b641^-359"/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m:125:57: warning: 'cString' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]    NSMutableData *data = [NSMutableData dataWithBytes:[postBody cString] length:[postBody length]];                                                        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@52"'cString' is deprecated: first deprecated in iOS 2.0-380193194#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@104"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/PostView.m0000000000000000^124#56#124#56#5625#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/PostView.m0000000000000000^3961"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/PostView.o" "iOS Performance App/PostView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/PostView.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/PostView.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/PostView.o"36"D177D195-D1D7-46AC-BE96-2ADE0CFD9507-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ViewController.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.684277
+e380193194.919889
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ViewController.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.mbf64afaa49a9b641^ff97ebaa49a9b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/ViewController.m0000000000000000^3997"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ViewController.o" "iOS Performance App/ViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ViewController.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ViewController.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/ViewController.o"36"F10F8C2B-061F-4AED-BC27-A5BE1A27DFB1-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/main.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.644782
+e380193194.702292
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/main.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.mb649a5aa49a9b641^d8d6b3aa49a9b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/main.m0000000000000000^3937"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/main.o" "iOS Performance App/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/main.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/main.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/main.o"36"7FA18CA6-5CA4-4CE0-BF0D-B98F5C066C23-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/AppDelegate.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.503140
+e380193194.672596
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.mb9ff80aa49a9b641^0648acaa49a9b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/AppDelegate.m0000000000000000^3986"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/AppDelegate.o" "iOS Performance App/AppDelegate.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7s" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/AppDelegate.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/AppDelegate.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/AppDelegate.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/AppDelegate.o"36"D0C13495-4764-482C-B100-B8F22C1A3F5D-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/DetailsView.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.875918
+e380193195.052044
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/DetailsView.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m:156:57: warning: 'cString' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]
+o    NSMutableData *data = [NSMutableData dataWithBytes:[putBody cString] length:[putBody length]];
+o                                                        ^
+o/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m:16:17: warning: incomplete implementation [-Wincomplete-implementation]
+o@implementation DetailsView
+o                ^
+o/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.h:38:1: note: method definition for 'imageDwnload:' not found
+o-(IBAction)imageDwnload:(id)sender;
+o^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.mfb78e0aa49a9b641^6b470dab49a9b641^-745"/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m:156:57: warning: 'cString' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]    NSMutableData *data = [NSMutableData dataWithBytes:[putBody cString] length:[putBody length]];                                                        ^/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m:16:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation DetailsView                ^/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.h:38:1: note: method definition for 'imageDwnload:' not found-(IBAction)imageDwnload:(id)sender;^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@52"'cString' is deprecated: first deprecated in iOS 2.0-380193195#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/DetailsView.m0000000000000000^155#56#155#56#7406#0#12"Deprecations--2@25"Incomplete implementation-380193195#18446744073709551615#0#1(2@47"Method definition for 'imageDwnload:' not found-380193195#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/DetailsView.h0000000000000000^37#0#37#0#1146#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/DetailsView.m0000000000000000^15#16#15#16#255#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/DetailsView.m0000000000000000^3986"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/DetailsView.o" "iOS Performance App/DetailsView.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7s" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/DetailsView.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/DetailsView.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/DetailsView.o"36"48677DB6-580B-42F0-A1B5-E30037E68EC1-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ImageScreen.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.501443
+e380193194.682825
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ImageScreen.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m1f1381aa49a9b641^8ae5aeaa49a9b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/ImageScreen.m0000000000000000^3986"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ImageScreen.o" "iOS Performance App/ImageScreen.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7s" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ImageScreen.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ImageScreen.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ImageScreen.o"36"B1955F5C-33DF-41A8-9283-0767DB274056-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/PostView.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.921417
+e380193195.081075
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/PostView.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m:125:57: warning: 'cString' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]
+o    NSMutableData *data = [NSMutableData dataWithBytes:[postBody cString] length:[postBody length]];
+o                                                        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.mbc22ecaa49a9b641^7c982dab49a9b641^-359"/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m:125:57: warning: 'cString' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]    NSMutableData *data = [NSMutableData dataWithBytes:[postBody cString] length:[postBody length]];                                                        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@52"'cString' is deprecated: first deprecated in iOS 2.0-380193195#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@104"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/PostView.m0000000000000000^124#56#124#56#5625#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/PostView.m0000000000000000^3968"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/PostView.o" "iOS Performance App/PostView.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7s" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/PostView.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/PostView.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/PostView.o"36"91712067-4DAA-4D0A-A383-3B1501528705-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ViewController.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.476037
+e380193194.738393
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ViewController.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.med117aaa49a9b641^261dbdaa49a9b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/ViewController.m0000000000000000^4004"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ViewController.o" "iOS Performance App/ViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7s" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ViewController.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ViewController.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ViewController.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/ViewController.o"36"9E488298-DAC2-4624-8F2A-26C924BBD2E6-
+
+CCompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/main.o" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193194.503102
+e380193194.643056
+r1
+xCompileC
+xBuild/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/main.o
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m09fd80aa49a9b641^7fa0a4aa49a9b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/main.m0000000000000000^3944"CompileC "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/main.o" "iOS Performance App/main.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7s" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -include "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/main.d" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/main.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/main.m" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/main.o"36"46CC562B-4785-45BC-8354-2CA0E4BAC203-
+
+CCompileXIB "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.xib"
+s380193205.963007
+e380193206.137671
+r1
+xCompileXIB
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compiling /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.xibdfa3f6b549a9b641^904c23b649a9b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/DetailsView.xib0000000000000000^891"CompileXIB "iOS Performance App/DetailsView.xib"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/DetailsView.nib" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/DetailsView.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"5C1CBF34-1832-4773-B95B-BCDF622D48A3-
+
+CCompileXIB "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.xib"
+s380193206.331685
+e380193206.398807
+r1
+xCompileXIB
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compiling /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.xib700855b649a9b641^150394b649a9b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/ImageScreen.xib0000000000000000^891"CompileXIB "iOS Performance App/ImageScreen.xib"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/ImageScreen.nib" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/ImageScreen.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"AB5AB1E0-4845-47FC-934B-E63F911175D4-
+
+CCompileXIB "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.xib"
+s380193206.138953
+e380193206.329988
+r1
+xCompileXIB
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.xibdeae23b649a9b641^377093b649a9b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/PostView.xib0000000000000000^882"CompileXIB "iOS Performance App/PostView.xib"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/PostView.nib" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/PostView.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"E3C7FD20-8431-45E9-BD69-C090C67CEB47-
+
+CCompileXIB "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPad.xib"
+s380193205.732328
+e380193205.961745
+r1
+xCompileXIB
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPad.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compiling /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPad.xib889fbbb549a9b641^3656f6b549a9b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/en.lproj/ViewController_iPad.xib0000000000000000^942"CompileXIB "iOS Performance App/en.lproj/ViewController_iPad.xib"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/en.lproj/ViewController_iPad.nib" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPad.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"73620169-82EC-499B-AAFB-35E56AA058BD-
+
+CCompileXIB "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPhone.xib"
+s380193200.644231
+e380193205.730370
+r1
+xCompileXIB
+x/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPhone.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compiling /Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPhone.xib4a09a5b049a9b641^0b25bbb549a9b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/en.lproj/ViewController_iPhone.xib0000000000000000^948"CompileXIB "iOS Performance App/en.lproj/ViewController_iPhone.xib"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/en.lproj/ViewController_iPhone.nib" "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/en.lproj/ViewController_iPhone.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"ACECABDF-403D-47F6-91BB-CB11533EBD90-
+
+CCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Add.png" Add.png
+s380193207.101408
+e380193207.316221
+r1
+xCopyPNGFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Add.png
+xAdd.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Add.png" Add.png98151ab749a9b641^8f53a4b749a9b641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Add.png0000000000000000^619"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Add.png" Add.png    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/i061822/Desktop/MyApps/iOS Performance App/Add.png" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Add.png"36"05C09132-1151-4EE4-81A1-7663A96A2BA1-
+
+CCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Add-icon.png" Button-Add-icon.png
+s380193206.904200
+e380193206.990129
+r1
+xCopyPNGFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Add-icon.png
+xButton-Add-icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Add-icon.png" Button-Add-icon.png8997e7b649a9b641^6b2819b749a9b641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Button-Add-icon.png0000000000000000^667"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Add-icon.png" Button-Add-icon.png    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/i061822/Desktop/MyApps/iOS Performance App/Button-Add-icon.png" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Add-icon.png"36"9C759268-7553-490A-BC80-08DA49A993C6-
+
+CCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Delete-icon.png" Button-Delete-icon.png
+s380193206.991478
+e380193207.100045
+r1
+xCopyPNGFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Delete-icon.png
+xButton-Delete-icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Delete-icon.png" Button-Delete-icon.png2d07feb649a9b641^5cc91eb749a9b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Button-Delete-icon.png0000000000000000^679"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Delete-icon.png" Button-Delete-icon.png    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/i061822/Desktop/MyApps/iOS Performance App/Button-Delete-icon.png" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Button-Delete-icon.png"36"63E4D913-A506-468F-BFAF-6EEFC711B389-
+
+CCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Delete.png" Delete.png
+s380193207.348177
+e380193207.471723
+r1
+xCopyPNGFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Delete.png
+xDelete.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Delete.png" Delete.pngc6165ab749a9b641^605aa4b749a9b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Delete.png0000000000000000^631"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Delete.png" Delete.png    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/i061822/Desktop/MyApps/iOS Performance App/Delete.png" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Delete.png"36"D57FDFA3-FA93-4A68-A3FA-53DC08E29A90-
+
+CCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Download.png" Download.png
+s380193207.473094
+e380193207.595591
+r1
+xCopyPNGFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Download.png
+xDownload.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Download.png" Download.pngd75179b749a9b641^f25fa4b749a9b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Download.png0000000000000000^639"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Download.png" Download.png    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/i061822/Desktop/MyApps/iOS Performance App/Download.png" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Download.png"36"539ACB5C-2F87-496C-912D-970E1332922F-
+
+CCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Update.png" Update.png
+s380193207.596957
+e380193207.670713
+r1
+xCopyPNGFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Update.png
+xUpdate.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Update.png" Update.png1de598b749a9b641^2e56b8b749a9b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Update.png0000000000000000^631"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Update.png" Update.png    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/i061822/Desktop/MyApps/iOS Performance App/Update.png" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Update.png"36"35926AA4-8E38-4F8F-894C-9C24AA6DD90E-
+
+CCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Upload.png" Upload.png
+s380193207.672076
+e380193207.775371
+r1
+xCopyPNGFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Upload.png
+xUpload.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Upload.png" Upload.png5323acb749a9b641^9199c7b749a9b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Upload.png0000000000000000^631"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Upload.png" Upload.png    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/i061822/Desktop/MyApps/iOS Performance App/Upload.png" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Upload.png"36"449B9C09-4077-4A33-84D4-99CA951DF0F3-
+
+CCopyPNGFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/witcher2.png" witcher2.png
+s380193206.423013
+e380193206.902786
+r1
+xCopyPNGFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/witcher2.png
+xwitcher2.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/witcher2.png" witcher2.png66686cb649a9b641^8028e8b649a9b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/witcher2.png0000000000000000^639"CopyPNGFile "Build/Products/Debug-iphoneos/iOS Performance App.app/witcher2.png" witcher2.png    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/i061822/Desktop/MyApps/iOS Performance App/witcher2.png" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/witcher2.png"36"37927CBB-4D6C-40A8-9CF1-FCA4CB828CAA-
+
+CCopyStringsFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/en.lproj/InfoPlist.strings" "iOS Performance App/en.lproj/InfoPlist.strings"
+s380193200.643481
+e380193200.673005
+r1
+xCopyStringsFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/en.lproj/InfoPlist.strings
+xiOS Performance App/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy iOS Performance App/en.lproj/InfoPlist.strings9cdba4b049a9b641^a25eb0b049a9b641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/en.lproj/InfoPlist.strings0000000000000000^652"CopyStringsFile "Build/Products/Debug-iphoneos/iOS Performance App.app/en.lproj/InfoPlist.strings" "iOS Performance App/en.lproj/InfoPlist.strings"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/en.lproj" -- "iOS Performance App/en.lproj/InfoPlist.strings"36"CA0E3C03-3C57-4D79-991E-37460DD774F5-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist "Build/Products/Debug-iphoneos/iOS Performance App.app/ResourceRules.plist"
+s380193193.877765
+e380193193.885005
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/iOS Performance App.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/Products/Debug-iphoneos/iOS Performance App.app/ResourceRules.plistb4cae0a949a9b641^7e8fe2a949a9b641^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Build/Products/Debug-iphoneos/iOS%20Performance%20App.app/ResourceRules.plist000000000080d041^796"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist "Build/Products/Debug-iphoneos/iOS Performance App.app/ResourceRules.plist"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"36"5BE5A83D-7A65-4D2F-9AF4-4EB2F7CEE1B6-
+
+CCpResource Assassins3.jpg "Build/Products/Debug-iphoneos/iOS Performance App.app/Assassins3.jpg"
+s380193206.400085
+e380193206.412323
+r1
+xCpResource
+xAssassins3.jpg
+xBuild/Products/Debug-iphoneos/iOS Performance App.app/Assassins3.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Products/Debug-iphoneos/iOS Performance App.app/Assassins3.jpgc28766b649a9b641^180a94b649a9b641^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Build/Products/Debug-iphoneos/iOS%20Performance%20App.app/Assassins3.jpg000000000080d041^629"CpResource Assassins3.jpg "Build/Products/Debug-iphoneos/iOS Performance App.app/Assassins3.jpg"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/i061822/Desktop/MyApps/iOS Performance App/Assassins3.jpg" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"36"AAD38B3B-9A50-45F2-B54F-E82E8E7B7290-
+
+CCpResource The-Dark-Knight.jpg "Build/Products/Debug-iphoneos/iOS Performance App.app/The-Dark-Knight.jpg"
+s380193207.776730
+e380193207.782284
+r1
+xCpResource
+xThe-Dark-Knight.jpg
+xBuild/Products/Debug-iphoneos/iOS Performance App.app/The-Dark-Knight.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/Products/Debug-iphoneos/iOS Performance App.app/The-Dark-Knight.jpg1cefc6b749a9b641^5fd2c8b749a9b641^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Build/Products/Debug-iphoneos/iOS%20Performance%20App.app/The-Dark-Knight.jpg000000000080d041^644"CpResource The-Dark-Knight.jpg "Build/Products/Debug-iphoneos/iOS Performance App.app/The-Dark-Knight.jpg"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/i061822/Desktop/MyApps/iOS Performance App/The-Dark-Knight.jpg" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"36"2B57BDD9-CF4E-49F8-9B84-F41D0295930E-
+
+CCpResource bundles/SDMSupportability-Bundle.zip "Build/Products/Debug-iphoneos/iOS Performance App.app/SDMSupportability-Bundle.zip"
+s380193207.783577
+e380193207.825467
+r1
+xCpResource
+xbundles/SDMSupportability-Bundle.zip
+xBuild/Products/Debug-iphoneos/iOS Performance App.app/SDMSupportability-Bundle.zip
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy Build/Products/Debug-iphoneos/iOS Performance App.app/SDMSupportability-Bundle.zip90bbc8b749a9b641^abb1ecb749a9b641^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Build/Products/Debug-iphoneos/iOS%20Performance%20App.app/SDMSupportability-Bundle.zip000000000080d041^687"CpResource bundles/SDMSupportability-Bundle.zip "Build/Products/Debug-iphoneos/iOS Performance App.app/SDMSupportability-Bundle.zip"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/i061822/Desktop/MyApps/iOS Performance App/bundles/SDMSupportability-Bundle.zip" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"36"A0222B6E-88A5-452F-B1B4-B79769E22E86-
+
+CCpResource clichemag_tv.jpg "Build/Products/Debug-iphoneos/iOS Performance App.app/clichemag_tv.jpg"
+s380193206.413625
+e380193206.421648
+r1
+xCpResource
+xclichemag_tv.jpg
+xBuild/Products/Debug-iphoneos/iOS Performance App.app/clichemag_tv.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy Build/Products/Debug-iphoneos/iOS Performance App.app/clichemag_tv.jpg62f769b649a9b641^5e1194b649a9b641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Build/Products/Debug-iphoneos/iOS%20Performance%20App.app/clichemag_tv.jpg000000000080d041^635"CpResource clichemag_tv.jpg "Build/Products/Debug-iphoneos/iOS Performance App.app/clichemag_tv.jpg"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/i061822/Desktop/MyApps/iOS Performance App/clichemag_tv.jpg" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"36"55344003-43EE-450D-880D-38E0147CE242-
+
+CCreateUniversalBinary "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App" normal "armv7 armv7s"
+s380193196.982780
+e380193197.331935
+r1
+xCreateUniversalBinary
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Create universal binary /Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance Appc3b8fbac49a9b641^350956ad49a9b641^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Build/Products/Debug-iphoneos/iOS%20Performance%20App.app/iOS%20Performance%20App000000000080d041^879"CreateUniversalBinary "Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App" normal "armv7 armv7s"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/iOS Performance App" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/iOS Performance App" -output "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App"36"EC6CA5BE-5454-4E38-BCE4-1F8D9C8E1FC5-
+
+CGenerateDSYMFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app.dSYM" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App"
+s380193197.338509
+e380193200.635059
+r1
+xGenerateDSYMFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app.dSYM
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Generating /Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app.dSYM23bf56ad49a9b641^9ed0a7b049a9b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Build/Products/Debug-iphoneos/iOS%20Performance%20App.app.dSYM000000000080d041^741"GenerateDSYMFile "Build/Products/Debug-iphoneos/iOS Performance App.app.dSYM" "Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/iOS Performance App" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app.dSYM"36"E1DF7DFB-2386-4222-87B7-A9954B7960D6-
+
+CLd "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/iOS Performance App" normal armv7
+s380193195.001737
+e380193196.975364
+r1
+xLd
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/iOS Performance App
+xnormal
+xarmv7
+old: warning: directory not found for option '-L/Users/i061822/Desktop/MyApps/iOS Performance App/ClientUtilLibs/Debug-iphoneos'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection182"Link /Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/iOS Performance App080501ab49a9b641^57b0f9ac49a9b641^-128"ld: warning: directory not found for option '-L/Users/i061822/Desktop/MyApps/iOS Performance App/ClientUtilLibs/Debug-iphoneos'1(21%IDEActivityLogMessage2@114"Directory not found for option '-L/Users/i061822/Desktop/MyApps/iOS Performance App/ClientUtilLibs/Debug-iphoneos'-380193195#0#128#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#0#--2224"Ld "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/iOS Performance App" normal armv7    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" "-L/Users/i061822/Desktop/MyApps/iOS Performance App/Debug-universal" "-L/Users/i061822/Desktop/MyApps/iOS Performance App/Release-universal" "-L/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Debug-universal" "-L/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Release-universal" "-L/Users/i061822/Desktop/MyApps/iOS Performance App/ClientUtilLibs/Debug-iphoneos" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -filelist "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/iOS Performance App.LinkFileList" -dead_strip -ObjC -all_load -fobjc-link-runtime -miphoneos-version-min=5.0 -framework CFNetwork -framework CoreFoundation -lstdc++ -lz.1.2.5 -framework MessageUI -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -framework UIKit -framework Foundation -framework CoreGraphics -lSDMConnectivity -lSDMParser -lSDMSupportability -lSDMConnectivity -lSDMParser -lSDMSupportability -lAfariaSLL -lDatavault -lMo -lPerformanceLib -lsupClientUtil -lSUPProxyClient -lSUPSupportability -lAfariaSLL -lDatavault -lMo -lPerformanceLib -lsupClientUtil -lSUPProxyClient -lSUPSupportability -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7/iOS Performance App"36"A2E3654A-3716-4353-ADA6-1527536CBE32-
+
+CLd "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/iOS Performance App" normal armv7s
+s380193195.088155
+e380193196.890892
+r1
+xLd
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/iOS Performance App
+xnormal
+xarmv7s
+old: warning: directory not found for option '-L/Users/i061822/Desktop/MyApps/iOS Performance App/ClientUtilLibs/Debug-iphoneos'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection183"Link /Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/iOS Performance App7ee416ab49a9b641^2f14e4ac49a9b641^-128"ld: warning: directory not found for option '-L/Users/i061822/Desktop/MyApps/iOS Performance App/ClientUtilLibs/Debug-iphoneos'1(21%IDEActivityLogMessage2@114"Directory not found for option '-L/Users/i061822/Desktop/MyApps/iOS Performance App/ClientUtilLibs/Debug-iphoneos'-380193195#0#128#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#0#--2229"Ld "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/iOS Performance App" normal armv7s    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" "-L/Users/i061822/Desktop/MyApps/iOS Performance App/Debug-universal" "-L/Users/i061822/Desktop/MyApps/iOS Performance App/Release-universal" "-L/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Debug-universal" "-L/Users/i061822/Desktop/MyApps/iOS Performance App/libraries/Release-universal" "-L/Users/i061822/Desktop/MyApps/iOS Performance App/ClientUtilLibs/Debug-iphoneos" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" -filelist "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/iOS Performance App.LinkFileList" -dead_strip -ObjC -all_load -fobjc-link-runtime -miphoneos-version-min=5.0 -framework CFNetwork -framework CoreFoundation -lstdc++ -lz.1.2.5 -framework MessageUI -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -framework UIKit -framework Foundation -framework CoreGraphics -lSDMConnectivity -lSDMParser -lSDMSupportability -lSDMConnectivity -lSDMParser -lSDMSupportability -lAfariaSLL -lDatavault -lMo -lPerformanceLib -lsupClientUtil -lSUPProxyClient -lSUPSupportability -lAfariaSLL -lDatavault -lMo -lPerformanceLib -lsupClientUtil -lSUPProxyClient -lSUPSupportability -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/Objects-normal/armv7s/iOS Performance App"36"2EC5DF66-CE9F-4C16-8468-B9700BBEBC85-
+
+CProcessInfoPlistFile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Info.plist" "iOS Performance App/iOS Performance App-Info.plist"
+s380193193.877766
+e380193193.891502
+r1
+xProcessInfoPlistFile
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Info.plist
+xiOS Performance App/iOS Performance App-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Process iOS Performance App/iOS Performance App-Info.plista7cde0a949a9b641^2639e4a949a9b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/iOS%20Performance%20App-Info.plist0000000000000000^916"ProcessInfoPlistFile "Build/Products/Debug-iphoneos/iOS Performance App.app/Info.plist" "iOS Performance App/iOS Performance App-Info.plist"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "iOS Performance App/iOS Performance App-Info.plist" -genpkginfo "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/ResourceRules.plist" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/Info.plist"36"462528BE-FB03-4059-87CE-0B6CD4E8C3DC-
+
+CProcessPCH "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch.pth" "iOS Performance App/iOS Performance App-Prefix.pch" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193193.899706
+e380193194.469134
+r1
+xProcessPCH
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch.pth
+xiOS Performance App/iOS Performance App-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile iOS Performance App/iOS Performance App-Prefix.pch7576e6a949a9b641^a18188aa49a9b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/iOS%20Performance%20App-Prefix.pch0000000000000000^3866"ProcessPCH "Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch.pth" "iOS Performance App/iOS Performance App-Prefix.pch" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7s" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/iOS Performance App-Prefix.pch" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-feapipnhrnpathbilyanczlpzkom/iOS Performance App-Prefix.pch.d"36"B88E3B68-D5CC-4510-B852-C61221F2CA23-
+
+CProcessPCH "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch.pth" "iOS Performance App/iOS Performance App-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s380193193.899712
+e380193194.501510
+r1
+xProcessPCH
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch.pth
+xiOS Performance App/iOS Performance App-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile iOS Performance App/iOS Performance App-Prefix.pchc477e6a949a9b641^f88888aa49a9b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/iOS%20Performance%20App/iOS%20Performance%20App-Prefix.pch0000000000000000^3863"ProcessPCH "Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch.pth" "iOS Performance App/iOS Performance App-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-generated-files.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-own-target-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-all-target-headers.hmap" -iquote "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App-project-headers.hmap" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources/armv7" "-I/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/DerivedSources" "-F/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos" --serialize-diagnostics "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch.dia" -c "/Users/i061822/Desktop/MyApps/iOS Performance App/iOS Performance App/iOS Performance App-Prefix.pch" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/PrecompiledHeaders/iOS Performance App-Prefix-frckimsajwxafdggzngnolhossfe/iOS Performance App-Prefix.pch.d"36"D245048A-0128-48C4-80C8-9E43D7F408FF-
+
+CProcessPCH "/Users/i061822/Library/Developer/Xcode/DerivedData/iOS_Performance_App-ckbkdnwficclmlaxsbwfemckcaum/Index/PrecompiledHeaders/iOS Performance App-Prefix-atimrjhwsukizbbxyfsrtkltwgtz_ast/iOS Performance App-Prefix.pch.pth" "iOS Performance App/iOS Performance App-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/i061822/Library/Developer/Xcode/DerivedData/iOS_Performance_App-ckbkdnwficclmlaxsbwfemckcaum/Index/PrecompiledHeaders/iOS Performance App-Prefix-bczrhirxvylqzwebpooegufgzjiz_ast/iOS Performance App-Prefix.pch.pth" "iOS Performance App/iOS Performance App-Prefix.pch" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging "/Users/i061822/Library/MobileDevice/Provisioning Profiles/FD07AE3E-5128-4760-9F6E-789EA2CBF24D.mobileprovision" "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/embedded.mobileprovision"
+s380193207.850982
+e380193207.864687
+r1
+xProcessProductPackaging
+x/Users/i061822/Library/MobileDevice/Provisioning Profiles/FD07AE3E-5128-4760-9F6E-789EA2CBF24D.mobileprovision
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection217"ProcessProductPackaging "/Users/i061822/Library/MobileDevice/Provisioning Profiles/FD07AE3E-5128-4760-9F6E-789EA2CBF24D.mobileprovision" "Build/Products/Debug-iphoneos/iOS Performance App.app/embedded.mobileprovision"d8efd9b749a9b641^f5bbecb749a9b641^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Build/Products/Debug-iphoneos/iOS%20Performance%20App.app/embedded.mobileprovision0000000000000000^748"ProcessProductPackaging "/Users/i061822/Library/MobileDevice/Provisioning Profiles/FD07AE3E-5128-4760-9F6E-789EA2CBF24D.mobileprovision" "Build/Products/Debug-iphoneos/iOS Performance App.app/embedded.mobileprovision"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/i061822/Library/MobileDevice/Provisioning Profiles/FD07AE3E-5128-4760-9F6E-789EA2CBF24D.mobileprovision" -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app/embedded.mobileprovision"36"7B8A222D-2F1D-406A-ABA2-D6A4D967F1CE-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App.xcent"
+s380193207.889731
+e380193207.901744
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection259"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App.xcent"7bdce3b749a9b641^10c9ecb749a9b641^---0#0#0#-19%DVTDocumentLocation2@194"file://localhost/Users/i061822/Desktop/MyApps/iOS%20Performance%20App/Build/Intermediates/iOS%20Performance%20App.build/Debug-iphoneos/iOS%20Performance%20App.build/iOS%20Performance%20App.xcent000000000080d041^858"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App.xcent"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Intermediates/iOS Performance App.build/Debug-iphoneos/iOS Performance App.build/iOS Performance App.xcent"36"39E7EE65-83DB-43ED-A75D-72A521496AC6-
+
+CTouch "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"
+s380193207.872671
+e380193207.880866
+r1
+xTouch
+x/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Touch /Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app297bdfb749a9b641^09c3ecb749a9b641^---0#0#0#--437"Touch "Build/Products/Debug-iphoneos/iOS Performance App.app"    cd "/Users/i061822/Desktop/MyApps/iOS Performance App"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/i061822/Desktop/MyApps/iOS Performance App/Build/Products/Debug-iphoneos/iOS Performance App.app"36"BFDF51BA-B708-42B2-A01D-714784A557CF-
+
